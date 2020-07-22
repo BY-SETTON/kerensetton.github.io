@@ -9,6 +9,12 @@
 
 .portal-option {
 	width: calc(50% - 2.5em) !important;
+
+}
+@media screen and (max-width: 480px) {
+	.portal-option {
+		width: 100% !important;
+	}
 }
 
 html, body, div, span, applet, object,
